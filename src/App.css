@@ -1,0 +1,88 @@
+html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	height: 100%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: sans-serif;
+	background: rgb(179, 27, 27);
+}
+.items {
+	align-items: center;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.item {
+	height: 320px;
+	width: 320px;
+	border: solid 2px rgb(182, 33, 33);
+	margin-left: 20px;
+	margin-top: 20px;
+	color: rgb(124, 104, 65);
+	background: rgb(95, 21, 52);
+}
+input {
+	padding: 0.5rem;
+	width: 300px;
+}
+.suggestions {
+	border: 2px solid rgb(194, 189, 202);
+	border-top-width: 0;
+	list-style: none;
+	margin-top: 0;
+	padding-left: 0;
+	width: calc(300px);
+	background: wheat;
+}
+.one-item {
+	height: 350px;
+	width: 600px;
+	border: 2px solid rgb(21, 32, 95);
+	color: rgb(175, 143, 83);
+	background: rgb(95, 21, 52);
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.review {
+	display: block;
+
+	border: 2px solid rgb(95, 21, 52);
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding: 10px;
+	color: rgb(175, 143, 83);
+	background: rgb(95, 21, 52);
+}
+.details {
+	display: flex;
+	margin-top: 50px;
+	align-items: center;
+}
+.comments {
+	display: grid;
+	float: right;
+}
+.timings {
+	width: 570px;
+	height: 350px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border: 2px solid rgb(95, 21, 52);
+	padding: 10px;
+	color: rgb(175, 143, 83);
+	background: rgb(95, 21, 52);
+}
+.restaurant-image {
+	/* height: 200px;
+	width: 300px; */
+	border: 2px solid rgb(95, 21, 52);
+	margin-left: 30px;
+}
